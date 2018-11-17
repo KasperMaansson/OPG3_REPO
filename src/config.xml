@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.pgb.brewapp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="https://phonegap.com/ns/1.0">
+	<name>PhoneGap Build App</name>
+	<description>
+		This app brews beer.
+	</description>
+
+	<author email="seymourbutts@phonegap.com" href="https://phonegap.com">
+	   PhoneGap Team
+	</author>
+
+	<preference name="phonegap-version" value="cli-6.0.0" />
+</widget>
+
+<feature name="Geolocation">
+    <param name="ios-package" value="CDVLocation" />
+</feature>
+
+<plugin name="org.apache.cordova.geolocation" spec="0.3.12" source="pgb" />
+
+<gap:config-file platform="ios" parent="NSLocationAlwaysUsageDescription" overwrite="false">
+    <array>
+      <string>NSLocationAlwaysUsageDescription</string>
+    </array>
+</gap:config-file>
