@@ -6,11 +6,9 @@ class MyText extends Component {
         this.state = {  }
     }
     render() { 
-        return ( 
-
+        return( 
             <p>{this.props.textToDisplay}</p>
-
-         );
+        );
     }
 }
  

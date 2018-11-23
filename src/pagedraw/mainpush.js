@@ -8,56 +8,76 @@ export default class Mainpush extends React.Component {
     return (
       <div className="mainpush-mainpush-0">
           <div className="mainpush-0">
-              <div className="mainpush-spis_restaden_-3">
-                  {"SPIS ØRESTADEN"}
+              <div className="mainpush-rectangle_4">
+                  <div className="mainpush-0-0-0">
+                      <div className="mainpush-findit_-3">FindIT</div>
+                  </div>
               </div>
           </div>
           <div className="mainpush-1">
               <div className="mainpush-rectangle-2">
                   <div className="mainpush-1-0-0">
-                      <div className="mainpush-text-6">
+                      <div className="mainpush-text-0">
                           { this.props.textToFirstTitle }
                       </div>
                   </div>
                   <div className="mainpush-1-0-1">
-                      <div className="mainpush-text-5">
-                          { this.props.textToFirstDist }
+                      <div className="mainpush-text-7">
+                          { this.props.textToFirstDesc }
                       </div>
                   </div>
                   <div className="mainpush-1-0-2">
-                      <div className="mainpush-text-7">
-                          { this.props.textToFirstDesc }
+                      <img src={this.props.ImgToFirst} className="mainpush-image-3" /> 
+                  </div>
+                  <div className="mainpush-1-0-3">
+                      <div className="mainpush-rectangle_5">
+                          <div className="mainpush-1-0-3-0-0">
+                              <div className="mainpush-betal_med_findit_-2">
+                                  Betal med FindIT
+                              </div>
+                          </div>
                       </div>
                   </div>
               </div>
           </div>
           <div className="mainpush-2">
-              <div className="mainpush-rectangle-3">
+              <div className="mainpush-rectangle_3">
                   <div className="mainpush-2-0-0">
-                      <div className="mainpush-text-8">
-                          {"Lidt længere væk:"}
-                      </div>
-                  </div>
-                  <div className="mainpush-2-0-1">
-                      <div className="mainpush-text-9">
-                          { this.props.textToSecond }
+                      <div className="mainpush-l_ngere_v_k_-5">
+                          {"Længere væk:"}
                       </div>
                   </div>
               </div>
           </div>
           <div className="mainpush-3">
-              <div className="mainpush-rectangle-8">
+              <div className="mainpush-rectangle-3">
                   <div className="mainpush-3-0-0">
-                      <div className="mainpush-text-78">{"Længst væk:"}</div>
-                  </div>
-                  <div className="mainpush-3-0-1">
-                      <div className="mainpush-text-4">
-                          { this.props.textToThird }
+                      <img src={this.props.ImgToSecond} className="mainpush-image_2" /> 
+                      <div className="mainpush-3-0-0-1">
+                          <div className="mainpush-3-0-0-1-0">
+                              <div className="mainpush-text-8">
+                                  { this.props.textToSecond }
+                              </div>
+                          </div>
                       </div>
                   </div>
               </div>
           </div>
-          <div className="mainpush-4" /> 
+          <div className="mainpush-4">
+              <div className="mainpush-rectangle_2">
+                  <div className="mainpush-4-0-0">
+                      <img src={this.props.ImgToThird} className="mainpush-image_3" /> 
+                      <div className="mainpush-4-0-0-1">
+                          <div className="mainpush-4-0-0-1-0">
+                              <div className="mainpush-text-78">
+                                  { this.props.textToThird }
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div className="mainpush-5" /> 
       </div>
     );
   }
